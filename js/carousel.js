@@ -1,5 +1,4 @@
 function Carousel(config){
-
     this.container = ( typeof config.container === 'string') ? document.querySelector(config.container) : config.container
     
     this.itens = (typeof config.itens === 'string') ? this.container.querySelectorAll(config.itens) : config.itens
@@ -11,7 +10,7 @@ function Carousel(config){
     var _this = this;
     var _currentSlide = 0
     
-    init();
+    init()
     
     function init(){
         var _show = _this.container.querySelectorAll('.show')
@@ -41,8 +40,14 @@ function Carousel(config){
         showSlide()
     }
     
-
-}
-
-
+    function showSlide(){
+        var qtd = _this.itens.length;
+        var slide = _currentSlide % qtd;
+        slide = Math.abs(slide);
+        
+        _this.container.querySelector('.show').classList.remove('show');
+        _this.itens[slide].classList.add('show')
+        
+    }
     
+}

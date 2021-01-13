@@ -28,7 +28,7 @@ img{
 
 .logo-text{
     text-transform: uppercase;
-    background-color: #63c6ae;
+    background-color: #636ac6;
     font-size: 24px;
     margin: 0;
     padding: 20px;
@@ -64,7 +64,7 @@ img{
     transition: .8s ease;
 }
 .header__nav a:hover {
-    color: #63c6ae;   
+    color: #636ac6;   
 }
 .header__btnMenu{
     float: right;
@@ -176,7 +176,7 @@ img{
 }
 
 .hero__title{
-    background-color: #63c6ae;
+    background-color: #636ac6;
     color: white;
     font-size: 28px;
     font-weight: 600;
@@ -212,19 +212,18 @@ img{
     margin-top: 2.5em;
 }
 
-.people-cards__card{
-    
-}
+
 .people-cards__card:hover{
-    outline: 5px solid #63c6ae;
+    outline: 5px solid #636ac6;
     outline-offset: -5px;
 }
 .people-cards__card:hover .people-cards__avatar img{
     transform: translateY(-50%);
+    
 }
 .people-cards__card:hover .people-cards__title,
 .people-cards__card:hover .people-cards__text{
-    color: #63c6ae;
+    color: #6c6d74;
 }
 
 .people-cards__image{
@@ -285,7 +284,7 @@ img{
     background-color: #929da5;
 }
 .button-primary{
-    background-color: #69c6ae;
+    background-color: #636ac6;
     color: white;
 }
 .button-secundary{
@@ -296,9 +295,11 @@ img{
 
 
 .last-articles__title{
-    background-color: #63c6ae;
+    background-color: #636ac6;
     padding: 5px 0;
 }
+
+
 
 .last-articles__title h2{
     font-size: 24px;
@@ -312,13 +313,24 @@ img{
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: auto;
     grid-gap: 0;
-    background: yellow;
+
+    
 }
 .last-articles__thumbs img{
     display: block;
     width: 100%;
 }
+.image img{
+    -webkit-transition: .3s ease-in-out;
+    background: #636ac6;
+    
+}
 
+.image:hover{
+
+    opacity: .6;
+    
+}
 
 .laptop-slider{
     background-color: #242a2c;
@@ -338,9 +350,9 @@ img{
 
 
 .quote-container{
-    background-color: #63c6ae;
+    background-color: #636ac6;
     padding: 50px 0;
-    border-bottom: 12px solid #48b9a1;
+    border-bottom: 12px solid #636ac6;
 }
 
 .quote-slideshow h2{

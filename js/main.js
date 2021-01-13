@@ -1,5 +1,4 @@
 (function(){
-
     var $body = document.querySelector('body');
     $body.classList.remove('no-js')
     $body.classList.add('js')
@@ -10,22 +9,18 @@
         toggleBtn: '.header__btnMenu',
         widthEnabled: 1024 
     })
-
-
+    
     var carouselImgs = new Carousel({
-
         container: '.laptop-slider .slideshow',
-        items: 'figure',
+        itens: 'figure',
         btnPrev: '.prev',
-        btnNex: '.next'
-
-
+        btnNext: '.next'
     })
-
-
-
-
+    
+    var carouselQuotes = new Carousel({
+        container: '.quote-slideshow',
+        itens: 'figure',
+        btnPrev: '.prev',
+        btnNext: '.next'
+    })
 })()
-
-
-
