@@ -37,7 +37,7 @@ img{
     font-weight: bold;
     color: #fff;
     float: left;
-    text-align: right;
+    text-align: center;
 }
 
 .header__nav{
@@ -171,7 +171,7 @@ img{
     
     background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
                 linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
-                url(../img/01.jpg);
+                url(../img/bg.png);
     background-size: 40px 40px, 40px 40px, cover;
 }
 
@@ -182,6 +182,7 @@ img{
     font-weight: 600;
     padding: 30px 20px;
     text-transform: uppercase;
+    border-radius: 10px;
 }
 
 .hero__text{
@@ -190,12 +191,13 @@ img{
     color: white;
     padding: 20px;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .hero__btn{
     border: 1px solid rgba(255,255,255,.3);
     background-color: rgba(0,0,0,.2);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 15px 25px;
     display: inline-block;
     color: white;
@@ -217,17 +219,16 @@ img{
     outline: 5px solid #636ac6;
     outline-offset: -5px;
 }
-.people-cards__card:hover .people-cards__avatar img{
-    transform: translateY(-50%);
-    
-}
+
 .people-cards__card:hover .people-cards__title,
+
 .people-cards__card:hover .people-cards__text{
-    color: #6c6d74;
+    color: black;
 }
 
 .people-cards__image{
-    width: 100%;
+   width: 100%;
+    
 }
 
 .people-cards__avatar{
@@ -235,6 +236,7 @@ img{
     width: 88px;
     height: 88px;
     overflow: hidden;
+    border-radius: 50%;
 }
 .people-cards__content{
     text-align: center;
@@ -243,12 +245,14 @@ img{
 }
 .people-cards__title{
     color: #737c85;
-    font-size: 21px;
+    font-size: 23px;
     font-weight: normal;
+    
 }
 .people-cards__text{
     color: #929da5;
-    font-size: 14px;    
+    font-size: 14px; 
+    text-decoration: none;   
 }
 
 
