@@ -1,2 +1,3 @@
 # Projeto-Final-Web-Design
-Projeto Final desenvolvido em Curso de Web Design, que implementa conceitos aprendidos ao longo do curso.
+Final Web Design project that implements the concepts learned during the course entitled: "Web Design Completo".
+
