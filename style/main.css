@@ -296,7 +296,9 @@ img{
     color: white;
 }
 
-
+.last-articles{
+    padding-top: 90px;
+}
 
 .last-articles__title{
     background-color: #636ac6;
@@ -318,15 +320,18 @@ img{
     grid-auto-rows: auto;
     grid-gap: 0;
 
+
     
 }
 .last-articles__thumbs img{
     display: block;
     width: 100%;
+    
 }
 .image img{
     -webkit-transition: .3s ease-in-out;
     background: #636ac6;
+    
     
 }
 
@@ -348,6 +353,7 @@ img{
 }
 .slideshow figure{
     display: inline-block;
+    padding-left: 15%;
 }
 
 
@@ -382,12 +388,13 @@ img{
     padding: 50px 0 250px;
     color: #454e51;
     font-size: 14px;
+    
 }
 
 .footer__links li{
     list-style: none;
 }
-.footer__links a{
+.footer p{
     color: #454e51;
     display: block;
     font-weight: 600;
